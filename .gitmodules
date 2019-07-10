@@ -1,0 +1,6 @@
+[submodule "epd-waveshare"]
+	path = epd-waveshare
+	url = git@github.com:pcolusso/epd-waveshare.git
+[submodule "e-Paper"]
+	path = e-Paper
+	url = https://github.com/waveshare/e-Paper.git
