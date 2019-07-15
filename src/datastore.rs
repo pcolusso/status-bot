@@ -1,4 +1,4 @@
-use rocksdb::{DB, Options};
+use rocksdb::DB;
 use std::sync::{Arc, Mutex};
 use std::error::Error;
 

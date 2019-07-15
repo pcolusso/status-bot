@@ -6,7 +6,7 @@ use rocksdb::DB;
 
 use telebot::functions::*;
 
-pub fn listen(api_key: String, db: Arc<Mutex<DB>>) {
+pub fn listen(api_key: String, db: &Arc<Mutex<DB>>) {
     let mut bot = Bot::new(&api_key).update_interval(200);
 
     // Register a reply command which answers a message
